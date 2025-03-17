@@ -13,7 +13,7 @@ player = FirstPersonController(
 window.cursex = window.center[0]
 window.cursory = window.center[1]
 window.exit_button.enabled = False  # Disable the exit button to prevent user from quitting by accident
-window.fullscreen = False  # Optionally enable fullscreen to improve immersion
+window.fullscreen = False  # Optionally you can enable fullscreen to improve immersion but you might have to shut down and restart your PC for exit since that's what happened during playtest and I can't fix it.
 
 # Create the ground block
 ground = Entity(
